@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scanpy = "*"
+pandas = "*"
+numpy = "*"
+python-igraph = "*"
+leidenalg = "*"
+ipykernel = "*"
+jupyter = "*"
+scikit-learn = "*"
+openpyxl = "*"
+seaborn = "*"
+statsmodels = "*"
+scipy = "*"
+plotnine = "*"
+plotly = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
